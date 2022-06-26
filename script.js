@@ -59,6 +59,7 @@ function mealRecipeModal(meal) {
   let html = `
         <h2 class = "recipe-title">${meal.strMeal}</h2>
         <p class = "recipe-category">${meal.strCategory}</p>
+        <p class = "recipe-country">${meal.strArea}</p>
         <div class = "recipe-instruct">
             <h3>Instructions:</h3>
             <p>${meal.strInstructions}</p>

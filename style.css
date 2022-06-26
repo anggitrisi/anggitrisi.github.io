@@ -194,15 +194,14 @@ body {
 .meal-details-content {
   margin: 2rem;
 }
-.meal-details-content p:not(.recipe-category) {
-  padding: 1rem 0;
-}
+
 .recipe-close-btn {
   position: absolute;
   right: 2rem;
   top: 2rem;
-  font-size: 1.8rem;
-  background: #fff;
+  font-size: 1.5rem;
+  background: rgba(59, 56, 56, 0.158);
+  color: #fff;
   border: none;
   width: 35px;
   height: 35px;
@@ -232,8 +231,9 @@ body {
   -ms-border-radius: 0.3rem;
   -o-border-radius: 0.3rem;
 }
-.recipe-category {
-  background: #fff;
+
+.recipe-country {
+  background: #282c2c;
   font-weight: 600;
   color: var(--tenne-tawny);
   display: inline-block;
@@ -245,8 +245,14 @@ body {
   -o-border-radius: 0.3rem;
 }
 .recipe-instruct {
+  margin-top: 1rem;
   padding: 1rem 0;
 }
+
+.recipe-instruct h3 {
+  color: #282c2c;
+}
+
 .recipe-meal-img img {
   width: 100px;
   height: 100px;
